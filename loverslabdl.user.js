@@ -6,6 +6,7 @@
 // @author       Tiefseetauchner
 // @match        https://www.loverslab.com/files/file/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=loverslab.com
+// @downloadUrl  https://github.com/Tiefseetauchner/tampermonkey_scripts/raw/main/loverslabdl.user.js
 // @grant        none
 // ==/UserScript==
 
