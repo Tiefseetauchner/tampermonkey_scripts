@@ -4,7 +4,7 @@
 // @version      2025-02-06
 // @description  Improve Discord by removing useless crap
 // @author       Tiefseetauchner
-// @match        https://discord.com/*e
+// @match        https://discord.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=discord.com
 // @downloadUrl  https://github.com/Tiefseetauchner/tampermonkey_scripts/raw/main/discordCleanup.user.js
 // @grant        none
