@@ -4,7 +4,7 @@
 // @version      2024-08-22
 // @description  Improve Discord by removing useless crap
 // @author       Tiefseetauchner
-// @match        https://discord.com/*
+// @match        https://discord.com/*e
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=discord.com
 // @downloadUrl  https://github.com/Tiefseetauchner/tampermonkey_scripts/raw/main/discordCleanup.user.js
 // @grant        none
@@ -17,6 +17,7 @@
         "div[class^=\"channelAppLauncher_\"]",
         "button[aria-label=\"Open GIF picker\"]",
         "button[aria-label=\"Send a gift\"]",
+        "button[aria-label=\"Add Emoji Confetti\"]",
     ];
 
     let style = document.createElement('style');
