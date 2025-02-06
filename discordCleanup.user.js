@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Discord Improvements
 // @namespace    http://lukechriswalker.at/
-// @version      2024-08-22
+// @version      2025-02-06
 // @description  Improve Discord by removing useless crap
 // @author       Tiefseetauchner
 // @match        https://discord.com/*e
