@@ -23,5 +23,10 @@
     let style = document.createElement('style');
     style.type = 'text/css';
     style.innerHTML = hiddenElements.map(selector => `${selector} { display: none !important; }`).join(' ');
+
+    // Fix Textbox Alignment
+    style.innerHTML += ".container_c48ade {--custom-chat-input-margin-bottom: 8px !important;}"
+    style.innerHTML += ".textArea__74017 {min-height: calc(var(--custom-channel-textarea-text-area-height) + 4px) !important;}"
+    
     document.head.appendChild(style);
 })();
