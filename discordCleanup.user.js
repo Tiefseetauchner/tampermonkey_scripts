@@ -27,6 +27,7 @@
     // Fix Textbox Alignment
     style.innerHTML += ".container_c48ade {--custom-chat-input-margin-bottom: 8px !important;}"
     style.innerHTML += ".textArea__74017 {min-height: calc(var(--custom-channel-textarea-text-area-height) + 4px) !important;}"
-    
+    style.innerHTML += ".base_b88801 {bottom: 65px !important}"
+
     document.head.appendChild(style);
 })();
